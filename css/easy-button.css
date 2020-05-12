@@ -48,9 +48,10 @@
   position: relative;
 }
 
-
 .leaflet-touch .leaflet-bar button {
   width: 30px;
   height: 30px;
   line-height: 30px;
 }
+
+.leaflet-bar i { line-height:30px; }
