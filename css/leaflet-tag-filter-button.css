@@ -11,6 +11,7 @@
 
 .leaflet-bar.easy-button-container.leaflet-control {
     top:0px;
+    text-align: left !important;
 }
 
 .leaflet-bar span.filter-info-box {
