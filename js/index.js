@@ -105,7 +105,7 @@ function drawMap(err, books) {
   L.control.tagFilterButton({
     data: ['Available to all students in Iowa'],
     filterOnEveryClick: true,
-    icon: '<i style="text-align:center" class="fas fa-filter"></i>',
+    icon: '<i class="fas fa-filter"></i>',
   }).addTo(map);
 
 
