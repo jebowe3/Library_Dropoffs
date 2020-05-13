@@ -105,7 +105,8 @@ function drawMap(err, books) {
   L.control.tagFilterButton({
     data: ['Available to all students in Iowa'],
     filterOnEveryClick: true,
-    icon: '<i class="fas fa-filter"></i>',
+    //the following ensures that the icon remains centered within the filter button on both iphone and desktop
+    icon: '<i class="fas fa-filter" style="position: relative; top: 20%; right: -50%; transform: translate(-50%, -50%);"></i>',
   }).addTo(map);
 
 
